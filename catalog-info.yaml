@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "msvechltest"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-16"
+    "humanitec.com/appId": "msvechltest"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
